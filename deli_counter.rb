@@ -1,4 +1,4 @@
-require "pry"
+
 
 katz_deli = []
 
@@ -41,7 +41,7 @@ def now_serving(nextinlinemethod)
     katz_deli.push(name)
     
    puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
-   binding.pry 
+    
  end 
    
  
